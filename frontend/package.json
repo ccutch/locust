@@ -1,0 +1,28 @@
+{
+  "name": "locust-frontend",
+  "private": true,
+  "scripts": {
+    "start": "parcel watch src/LocustApp.js -o main.js"
+  },
+  "dependencies": {
+    "parcel-bundler": "latest",
+    "react": "^16.0.0",
+    "react-dom": "^16.8.4"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react",
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}

@@ -5,3 +5,8 @@ type response struct {
 	RequestID  string
 	Ping       int
 }
+
+type resultSet struct {
+	count   int
+	results map[string]int
+}
